@@ -83,7 +83,7 @@ When transmitting sensitive data over any network, end-to-end communications sec
 The primary benefit of transport layer security is the protection of web application data from unauthorized disclosure and modification when it is transmitted between clients (web browsers) and the web application server, and between the web application server and back end and other non-browser based enterprise components.
 
 Web servers can instruct web browsers to uphold minimal transport-level security:
-* Use the Strict-Transport-Security Header to enforce opportunistic encryption and certificate validation checks.
+* Use the HTTP Strict-Transport-Security (HSTS) Header to enforce opportunistic encryption and certificate validation checks.
 * Content-Security-Policy allows for automatic client-side upgrade from HTTP to HTTPS.
 * When setting cookies, always utilize the “secure” flag to prevent transmission over HTTP.
 
